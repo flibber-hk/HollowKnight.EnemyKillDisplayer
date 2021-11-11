@@ -13,14 +13,14 @@
 	<HollowKnightRefs>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed</HollowKnightRefs>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="**\*.png" />
-    <None Remove="**\*.json" />
-    <None Remove="**\*.xml" />
+    <None Remove="Resources\**\*.png" />
+    <None Remove="Resources\**\*.json" />
+    <None Remove="Resources\**\*.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="**\*.png" />
-    <EmbeddedResource Include="**\*.json" />
-    <EmbeddedResource Include="**\*.xml" />
+    <EmbeddedResource Include="Resources\**\*.png" />
+    <EmbeddedResource Include="Resources\**\*.json" />
+    <EmbeddedResource Include="Resources\**\*.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
